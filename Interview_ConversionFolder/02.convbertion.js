@@ -47,8 +47,8 @@
 
 
 
-console.log("" == 0);
-console.log(" " == 0);
-console.log("\n" == 0);
-console.log("\t" == 0);
+// console.log("" == 0); //  js comnvert both into an number so 0 == 0  true
+// console.log(" " == 0);
+// console.log("\n" == 0);
+// console.log("\t" == 0);
 

@@ -182,5 +182,3 @@
 
 // console.log(largest("arpan is a good boy and a good school student"))
 
-let arr = [1,34,5,6,7];
-console.log(arr.reduce((a,b) => a + b))

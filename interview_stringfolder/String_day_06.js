@@ -255,13 +255,15 @@
 
 // console.log(largest("arpan is a goodest boy"))
 
-function genarate(str) {
-    let otp = "";
-    for (let index = 0; index < str; index++) {
-      otp += Math.floor(Math.random() * 10) 
+// function genarate(str) {
+//     let otp = "";
+//     for (let index = 0; index < str; index++) {
+//       otp += Math.floor(Math.random() * 10) 
         
-    }
-    return otp;
-}
+//     }
+//     return otp;
+// }
 
-console.log(genarate(6))
+// console.log(genarate(6))
+
+

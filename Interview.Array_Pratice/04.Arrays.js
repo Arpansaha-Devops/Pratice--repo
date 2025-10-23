@@ -98,8 +98,8 @@
 // console.log(Math.min(...arr))  // ... this spread operator is used to exapnsd the array in indivizual numbers
 
 
-let arr =  [ 1,2,3,4,5];
+// let arr =  [ 1,2,3,4,5];
 
-let [first,second,third,...fourth] = arr;
+// let [first,second,third,...fourth] = arr;
 
-console.log(fourth)
+// console.log(fourth)
