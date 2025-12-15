@@ -75,6 +75,8 @@
 
 // console.log(vowelstr("arpan"))
 
+
+
 // function palstr(str) {
 //     for (let index = 0; index < str.length/2; index++) {
 //       if (str[index] !== str[str.length -1 -index]) {

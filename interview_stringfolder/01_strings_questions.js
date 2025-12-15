@@ -58,7 +58,7 @@
 
 
 
-// function reversestr(str){
+// function palstr(str){
 //  str = str.toLowerCase();
 //  for (let i = 0; i < str.length/2; i++) {
    
@@ -71,8 +71,8 @@
 //  }
 // }
 
-// console.log(reversestr("Arpan"))
-// console.log(reversestr("Malalam"))
+// console.log(palstr("Arpan"))
+// console.log(palstr("Malalam"))
 
 // method 2 
 
@@ -140,7 +140,7 @@
 
 
 
-// let spacestr = "arpan is a frontend developer"
+// let spacestr = "arpan is a good boy"
 
 // const joinArr = spacestr.replaceAll(" ","-");
 // console.log(joinArr)
@@ -150,9 +150,9 @@
 
 // function duplicates(str){
 //     let reverse = "";
-//     for (let i = 0; i < str.length; i++) { // remove duplicate charecters -
+//     for (let i = 0; i < str.length; i++) { 
        
-//         if (!reverse.includes(str[i])) {
+//         if (!reverse.includes(str[i])) { // remove duplicate charecters -
 //            reverse+= str[i] 
 //         }
 //     }

@@ -242,7 +242,7 @@
 
 
 // function largest(str) {
-//     let word = str = str.split(" ");
+//     let word = str.split(" ");
 //     let result = "";
 //     for (let index = 0; index < word.length; index++) {
 //        if (word[index].length > result.length) {
@@ -255,15 +255,31 @@
 
 // console.log(largest("arpan is a goodest boy"))
 
-// function genarate(str) {
-//     let otp = "";
-//     for (let index = 0; index < str; index++) {
-//       otp += Math.floor(Math.random() * 10) 
+
+
+// const myName = "my name is Arpan";
+//  let result = myName.split(" ")
+// .reduce((acc,curr) => curr.length > acc.length ? curr : acc,"");
+
+// console.log(result)
+
+
+
+// const str = "arpan iosesr a goodestes boy";
+
+// function largest(str) {
+//     let word =  str.split(" ");
+//     let largest = "";
+//     let secondlargest = "";
+//     for (let index = 0; index < word.length; index++) {
+//      if (word[index].length > largest.length) {
+//         secondlargest = largest;
+//         largest = word[index]
+//       }
         
 //     }
-//     return otp;
-// }
-
-// console.log(genarate(6))
+//     return {largest,secondlargest};
+// };
+// console.log(largest(str))
 
 

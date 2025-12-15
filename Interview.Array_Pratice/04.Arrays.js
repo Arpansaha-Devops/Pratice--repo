@@ -103,3 +103,36 @@
 // let [first,second,third,...fourth] = arr;
 
 // console.log(fourth)
+
+
+// let arr = [1,2,3,4,5,6,7];
+// function replace(arr) {
+//     let result = [];
+//     for (const key of arr) {
+//         if (!result.includes(key)) {
+//             result.unshift(key);
+//         }
+//     };
+//     return result;
+// };
+
+// console.log(replace(arr))
+
+
+// largest number in the array  - 
+
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+// function largest(arr) {
+//     let result = arr[0];
+//     for (let index = 0; index < arr.length; index++) {
+//         if (arr[index] > result) {
+//             result = arr[index]
+//         }
+        
+//     }
+//     return result ;
+// };
+
+// console.log(largest(arr))

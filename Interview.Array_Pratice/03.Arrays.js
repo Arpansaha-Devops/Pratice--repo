@@ -63,7 +63,7 @@
 
 // let arr = "arpan"
 // console.log(arr.split(""));
-// console.log(  Array.isArray(arr.split("")));  question 12  -
+// console.log(  Array.isArray(arr.split("")));    // question 12  -
 
 
 

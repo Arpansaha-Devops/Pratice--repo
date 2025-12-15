@@ -38,3 +38,6 @@
 // {} + []      // 0 (depends on parsing)
 // {} + {}      // NaN or "[object Object][object Object]"
 
+
+// console.log("arpan"-100); // NaN because it is not a number -
+
