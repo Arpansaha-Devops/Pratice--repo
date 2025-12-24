@@ -136,3 +136,44 @@
 // };
 
 // console.log(largest(arr))
+
+// Unique arr code --
+
+// const arr =[1,2,2,3,4,4,5,5,6,6]  // easy code
+
+// function uniqueArr(arr) {
+//     let obj = {};
+//     for (const key of arr) {
+//         obj[key] = (obj[key] || 0) + 1
+//     }
+//     const result = [];
+//     for (const num in obj) {
+       
+//         if (obj[num] === 1) {
+//             result.push(Number(num))
+//         }
+        
+//     }
+//     return result;
+// };
+
+// console.log(uniqueArr(arr))
+
+
+// // another Method =
+
+// const arr2 = [1,2,2,3,3,4,4,5]
+
+// function uniqueArr(arr2) {
+//     let result = []
+//     for (let index = 0; index < arr.length; index++) {
+//        if (arr.filter(num => num === arr[index]).length === 1) {
+//         result.push(arr[index])
+//        }
+//     }
+//     return result;
+// };
+
+// console.log(uniqueArr(arr2))  // Output: [1, 5]
+
+

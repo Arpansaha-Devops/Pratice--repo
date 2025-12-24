@@ -1,0 +1,27 @@
+const obj ={
+    name : "arpan",
+    skills : ["js","react","html","css","next js","backend"]
+}
+
+// Shallow copy 
+
+const shallow = {...obj}
+const shallowanother = Object.assign({},obj)
+shallowanother.name = "rahul"
+shallowanother.skills.push("database")
+
+// console.log(shallowanother)
+// console.log(obj)
+
+
+const obj2 = {
+    name : "arpan",
+   arr : [1,2,3,4]
+}
+
+const Deepcopy = structuredClone(obj2)
+Deepcopy.arr.push(5)
+Deepcopy.name = "arpan saha"
+
+console.log(Deepcopy)
+console.log(obj2)

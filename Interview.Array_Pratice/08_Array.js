@@ -48,7 +48,7 @@
 
 
 
-let arr = [1,2,3,4,4,5,6,7,5,7]
+// let arr = [1,2,3,4,4,5,6,7,5,7]
 
 // function duplicateArr(arr) {
 //     let result = [];
@@ -70,7 +70,7 @@ let arr = [1,2,3,4,4,5,6,7,5,7]
 // console.log(dulicateArr(arr))
 
 
-let str = "arpan"
+// let str = "arpan"
 
 // function reverseStr(str) {
 //     let result = "";
@@ -93,8 +93,90 @@ let str = "arpan"
 
 // console.log(revStr(str))
 
+// const str = "aaabbbcddeef"
+
+// for (const key of str) {
+//     if (str.indexOf(key) === str.lastIndexOf(key) ) {
+//         console.log(key)
+//         break;
+//     }
+// }
+
+
+// const arr = [1,2,2,3,3,3,4]
+
+// function mostFrequent(arr) {
+//   const freq = {};
+//   let maxCount = 0;
+//   let maxElement;
+
+//   for (let num of arr) {
+//     freq[num] = (freq[num] || 0) + 1;
+
+//     if (freq[num] > maxCount) {
+//       maxCount = freq[num];
+//       maxElement = num;
+//     }
+//   }
+
+//   return maxElement;
+// }
+
+// console.log(mostFrequent(arr)); // 3
+
+
+// function createCounter() {
+//     let counter = 1
+//     return function(){
+//       console.log (counter++)
+  
+//     }
+// }
+
+// const counter = createCounter();
+// counter(); // 1
+// counter(); // 2
+
+
+// const obj = {
+//   name: "JavaScript",
+//   getName: function () {
+//     setTimeout( () => {
+//       console.log(this.name);
+//     }, 1000);
+//   },
+// };
+
+// obj.getName();
 
 
 
+// const items = [
+//   { name: "Book", price: 50 },
+//   { name: "Laptop", price: 500 },
+//   { name: "Phone", price: 300 },
+// ];
+
+// let newItem = items.filter((key) => key.price > 100).reduce((acc, curr) => acc + curr.price, 0)
+
+
+// console.log(newItem)
+
+// const arr = [10,20,3,4]
+
+// function secondHigest(arr) {
+//     let minimum = -Infinity
+//     let second = -Infinity
+
+// for (const key of arr) {
+//     if (key > minimum) {
+//          second = largest
+//            largest = key
+//          }else if (key < largest && key > second) {
+//             second = key 
+//          }
+//      }
+//      return {largest,second}  
+//     }
 
 
