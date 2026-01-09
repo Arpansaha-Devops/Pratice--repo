@@ -21,21 +21,21 @@
 
 // addnum(5,5,second)
 
-// let arr = [1,2,3,4,5,6,7]
+let arr = [1,2,3,4,5,6,7]
 
-// function calculate(arr,callback) {
-//     let result = []
-//     for (let index = 0; index < arr.length; index++) {
-//    result.push(callback(arr[index])) 
-//     }
-//     return result;
-// }
+function calculate(arr,callback) {
+    let result = []
+    for (let index = 0; index < arr.length; index++) {
+   result.push(callback(arr[index])) 
+    }
+    return result;
+}
 
-// function second(arr) {
-//    return arr * 2
-// }
+function second(arr) {
+   return arr * 2
+}
 
-// console.log(calculate(arr,second))
+console.log(calculate(arr,second))
 
 
 // let arr = [5, 4, 3, 2, 1];

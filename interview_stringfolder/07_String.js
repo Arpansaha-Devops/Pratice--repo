@@ -115,3 +115,19 @@
 
 
 
+// const str = "subhan"
+// const str1v = 1800
+
+// function replace(str,str1v) {
+//      const numStr = String(str1v);
+//   let result = "";
+
+//   for (let i = 0; i < str.length; i++) {
+//     result += str[i];
+//     if (i < numStr.length) {
+//       result += numStr[i];
+//     }
+//   }
+
+//   return result;
+// }

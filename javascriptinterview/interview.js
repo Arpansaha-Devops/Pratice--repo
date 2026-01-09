@@ -181,14 +181,3 @@
 // console.log(smallest(str)); // "boy"
 
 
-function fun1(callback) {
-    setTimeout(() => {
-        console.log(`hello`);
-    } , 4000);
-}
-
-function fun2() {
-    console.log(`arpan`)
-}
-
-fun1(fun2)
