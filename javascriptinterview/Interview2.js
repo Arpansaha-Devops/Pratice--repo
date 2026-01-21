@@ -59,3 +59,23 @@
 // };
 
 // console.log(revArr(arr))
+
+
+abs()
+
+var abs = function () {
+    console.log(" i am here")
+}
+
+abs()
+function abs() {
+    console.log("this is Arpan")
+}
+
+
+abs()
+function abs() {
+    console.log("i am there")
+}
+
+abs()

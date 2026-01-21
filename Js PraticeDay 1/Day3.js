@@ -23,8 +23,8 @@
 
 // console.log(duplicAtearr([1,2,3,3,4,5,5]))
 
-const arr = [1,2,3,4,5,6]
+// const arr = [1,2,3,4,5,6]
 
-const newArr = [...new Set(arr)]
+// const newArr = [...new Set(arr)]
 
-console.log(newArr.length !== arr.length)
+// console.log(newArr.length !== arr.length)
