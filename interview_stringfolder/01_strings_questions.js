@@ -32,7 +32,23 @@
 //   console.log(revstR[index])
 // }  
 
+// let str = "my name is arpan";
 
+// function revStr(str) {
+
+
+//    return str.split(" ").map((word) => {
+//           let result = "";
+//         for (const key of word) {
+          
+//            result = key + result 
+//         }
+//         return result 
+//     }).join(" ")
+    
+// }
+
+// console.log(revStr(str))
 
 
 // const voweLstr = "arpan";
