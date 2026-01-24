@@ -117,3 +117,7 @@ let num = 10;
 // }
 
 // console.log(first(10)(20)(30)(40))
+
+
+let str = "arpan";
+

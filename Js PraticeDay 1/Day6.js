@@ -51,8 +51,8 @@
 // test(record = {age : 21})
 
 
-// console.log(+true )
-// console.log(!"arpan" )
+console.log(+true )
+console.log(!"arpan" )
 
 // var a = {}
 // var b = {key : "b"}
@@ -68,6 +68,5 @@
 // console.log(b[c]) // 700
 // console.log(a)
 
-let str = "abcdef"
-let str2 = "12345"
+
 
