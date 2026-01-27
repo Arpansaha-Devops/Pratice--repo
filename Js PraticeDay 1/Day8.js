@@ -125,3 +125,111 @@
 // }
 
 // console.log(isAnagram(str,str2))
+
+
+// let str = "javascript";
+
+// function countVowel(str) {
+//     let word = str.toLowerCase().split("").filter((item) => "aeiou".includes(item)).length
+//     return word;
+// };
+
+// console.log(countVowel(str))
+
+
+// function countVowel(str) {
+//     let vowel = "aeiou";
+//     let count = 0;
+//     for (let index = 0; index < str.length; index++) {
+       
+//         if (vowel.includes(str[index])) {
+//             count++
+//         }
+//     }
+//     return  count;
+// };
+
+// console.log(countVowel(str))
+
+
+// let arr = [1, 2, 3, 4]
+
+// function sumOfNum(arr,n) {
+//    if (n === 0) return arr[0]
+//    return arr[n] + sumOfNum(arr,n - 1)
+// }
+
+// console.log(sumOfNum(arr,arr.length - 1))
+
+
+// let str = "madam";
+
+// // function palStr(str) {
+// //     for (let index = 0; index < str.length/2; index++) {
+  
+// //         if (str[index] !== str[str.length - 1 - index]) {
+// //            return false 
+// //         }
+// //     }
+// //     return true
+// // }
+
+// // console.log(palStr(str))
+
+
+// function isPal(str) {
+//     let result = str.split("").reverse().join("")
+//     return result === str
+// }
+
+// console.log(isPal(str))
+
+
+// let arr =  [1, 1, 2, 2, 3]
+
+
+// function removeDuplicateArr(arr) {
+//     let result = []
+//     for (let index = 0; index < arr.length; index++) {
+
+//         if (!result.includes(arr[index])) {
+//             result.push(arr[index])
+//         }
+//     }
+//     return result;
+// };
+
+// console.log(removeDuplicateArr(arr))
+
+
+// function removeDuplicateArr(arr) {
+//     return arr.filter((item,index,array) => array.indexOf(item) === index)
+// }
+
+// console.log(removeDuplicateArr(arr))
+
+
+// function removeDuplicateArr(arr) {
+//    let obj = {}
+//    for (const key of arr) {
+//     obj[key] = (obj[key] || 0) + 1
+//    }   
+// let result = []
+
+// for (const key of arr) {
+//     if (obj[key] <= 1) {
+//         result.push(key)
+//     }
+// }
+// return result;
+// };
+
+// console.log(recurSion(arr))
+
+
+// let num = [1,3,5]
+// let num2 = [2,4,6]
+
+// let result = [...num,...num2].sort((a,b) => a - b)
+
+// console.log(result)
