@@ -94,11 +94,53 @@ let str = "hello"
     
 //     for (const key of str2) {
 //         if (!obj[key]) {
-//             --obj[key]
+//             obj[key]--
 //         }
 //     }
 //     return true;
 // };
 
 
-// console.log(isAnnagram("silent","listen"))
+// console.log(isAnnagram("anagram","nagaram"))
+
+
+let arr = [1,2,2,2,3,3,4,5,5,6];
+
+
+// function removeuplicate(arr) {
+//     let result = [];
+//     for (let index = 0; index < arr.length; index++) {
+      
+//         if (!result.includes(arr[index])) {
+//             result.push(arr[index])
+//         }
+//     }
+//     return result;
+// };
+
+// console.log(removeuplicate(arr))
+
+
+// function removeDupli(arr) {
+//     return arr.filter((item,index,array) => array.indexOf(item) === index)
+// }
+
+// console.log(removeDupli(arr))
+
+
+// function removeDuplicate(arr) {
+//     let seen = {};
+//     let result = [];
+
+//     for (let item of arr) {
+//         if (!seen[item]) {
+//             seen[item] = true;
+//             result.push(item);
+//         }
+//     }
+
+//     return result;
+// }
+
+// console.log(removeDuplicate(arr));
+// [1,2,3,4,5,6]
