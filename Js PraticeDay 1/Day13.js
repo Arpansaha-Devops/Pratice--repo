@@ -78,3 +78,37 @@
 // };
 
 // console.log(countChar(str))
+let str = "hello my name is arpn"
+
+function firstLetterUpper(str) {
+    return str
+        .split(" ")
+        .filter(word => word !== "")
+        .map(word => word[0].toUpperCase() + word.slice(1))
+        .join(" ");
+}
+console.log(firstLetterUpper(str))
+
+
+// another approach - 
+let str1 = "HELLO HOW ARE YOU";
+
+function firstCharup(str1) {
+    let result = "";
+
+    for (let i = 0; i < str1.length; i++) {
+        let code = str1.charCodeAt(i);
+
+        // If uppercase letter
+        if (code >= 65 && code <= 90) {
+            result += String.fromCharCode(code + 32);
+        } else {
+            // space or other characters
+            result += str1[i];
+        }
+    }
+
+    return result;
+}
+
+console.log(firstCharup(str1));
