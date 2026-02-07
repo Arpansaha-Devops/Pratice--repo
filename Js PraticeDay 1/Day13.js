@@ -78,37 +78,53 @@
 // };
 
 // console.log(countChar(str))
-let str = "hello my name is arpn"
+// let str = "hello my name is arpn"
 
-function firstLetterUpper(str) {
-    return str
-        .split(" ")
-        .filter(word => word !== "")
-        .map(word => word[0].toUpperCase() + word.slice(1))
-        .join(" ");
-}
-console.log(firstLetterUpper(str))
+// function firstLetterUpper(str) {
+//     return str
+//         .split(" ")
+//         .filter(word => word !== "")
+//         .map(word => word[0].toUpperCase() + word.slice(1))
+//         .join(" ");
+// }
+// console.log(firstLetterUpper(str))
 
 
 // another approach - 
-let str1 = "HELLO HOW ARE YOU";
+// let str1 = "HELLO HOW ARE YOU";
 
-function firstCharup(str1) {
-    let result = "";
+// function firstCharup(str1) {
+//     let result = "";
 
-    for (let i = 0; i < str1.length; i++) {
-        let code = str1.charCodeAt(i);
+//     for (let i = 0; i < str1.length; i++) {
+//         let code = str1.charCodeAt(i);
 
-        // If uppercase letter
-        if (code >= 65 && code <= 90) {
-            result += String.fromCharCode(code + 32);
-        } else {
-            // space or other characters
-            result += str1[i];
-        }
-    }
+//         // If uppercase letter
+//         if (code >= 65 && code <= 90) {
+//             result += String.fromCharCode(code + 32);
+//         } else {
+//             // space or other characters
+//             result += str1[i];
+//         }
+//     }
 
-    return result;
+//     return result;
+// }
+
+// console.log(firstCharup(str1));
+
+
+let arr = [1, 6, 0, 3, 0, 2, 8];
+
+function moveZerosToEnd(a) {
+  let write = 0;
+
+  for (let read = 0; read < a.length; read++) {
+    if (a[read] !== 0) a[write++] = a[read];
+  }
+  while (write < a.length) a[write++] = 0;
+
+  return a;
 }
 
-console.log(firstCharup(str1));
+console.log(moveZerosToEnd([...arr])); // [1, 6, 3, 2, 8, 0, 0]
