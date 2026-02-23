@@ -78,22 +78,32 @@ let arr1 = [1,1,1,3,3,3,2,2,2,5]
 
 
 // let arr = [1,2,2,2,2,3,3,3,4,4,4,5,5,5]
-const arr = [1, 2, 2, 3, 4, 4, 5];
-function removeDuplicate(arr) {
-  let obj = {};
-  for (const key of arr) {
-    obj[key] = (obj[key] || 0) + 1;
-  }
+// const arr = [1, 2, 2, 3, 4, 4, 5];
+// function removeDuplicate(arr) {
+//   let obj = {};
+//   for (const key of arr) {
+//     obj[key] = (obj[key] || 0) + 1;
+//   }
 
-  let result = [];
-  for (const key of arr) {
-    if (obj[key] === 1) {
-      result.push(key);
-    }
-  }
+//   let result = [];
+//   for (const key of arr) {
+//     if (obj[key] === 1) {
+//       result.push(key);
+//     }
+//   }
 
-  return result;
+//   return result;
+// }
+
+
+// console.log(removeDuplicate(arr)); // [1, 3, 5]
+
+
+let str = "aabbce";
+
+function firstNonrepeatChar(str) {
+  return str.split("").find((item) => str.indexOf(item) === str.lastIndexOf(item)) || null
 }
 
 
-console.log(removeDuplicate(arr)); // [1, 3, 5]
+console.log(firstNonrepeatChar(str))
