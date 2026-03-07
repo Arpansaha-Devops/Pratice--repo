@@ -97,3 +97,23 @@ let num2  = 32;
 // console.log(typeof NaN)  // number
 
 // console.log(isNaN("Arpan1111"))
+
+
+// let str = "saha";
+// let str2 = "Arpan";
+
+// function mergeChar(str,str2) {
+//     let res = ""
+//     let max = Math.max(str.length,str2.length)
+//     for (let index = 0; index < max; index++) {
+     
+//         if (index < str.length) res += str[index] 
+//         if (index < str2.length) res += str2[index ]
+//     }
+//     return res;
+// };
+
+// console.log(mergeChar(str,str2))
+
+
+// console.log(Math.random().toString(36).slice(2, 10).toUpperCase())
