@@ -1,6 +1,6 @@
 // 'use strict'
 
-let arr = [1,2,3,4];
+// let arr = [1,2,3,4];
 
 
 // function sumofArr(arr) {
@@ -47,3 +47,29 @@ let obj = {
 }
 
 obj.greet()
+
+// union of this 2 arrays
+
+
+let arr = [1,2,3,4];
+let arr2 = [3,4,5,6] 
+
+
+function unionArrays(arr,arr2) {
+    let union = [];
+    let obj = {};
+
+    for (const item of arr) {
+        union.push(item)
+        obj[item] = (obj[item] || 0) + 1
+    }
+
+    for (const item of arr2) {
+        if (!obj[item]) {
+            union.push(item)
+        }
+    }
+    return union;
+};
+
+console.log(unionArrays(arr,arr2))
