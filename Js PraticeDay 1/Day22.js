@@ -54,7 +54,7 @@ console.log([1,2] == "1,2"); // true
 // console.log(revStr(str))
 
 
-let str = "racar";
+// let str = "racar";
 
 // function isPalstr(str) {
 //     for (let index = 0; index < str.length/2; index++) {
@@ -69,9 +69,46 @@ let str = "racar";
 // console.log(isPalstr(str))
 
 
-function ispalStr(str) {
-    let result = str.split("").reverse().join("")
-    return result === str
-};
+// function ispalStr(str) {
+//     let result = str.split("").reverse().join("")
+//     return result === str
+// };
 
-console.log(ispalStr(str))
+// console.log(ispalStr(str))
+
+
+const str1 = "my name is arpan";
+
+function larGestWord(str1) {
+   let result = "";
+   let word = str1.split(" ")
+   for (let index = 0; index < word.length; index++) {
+   if (word[index].length > result.length) {
+    result = word[index]
+   }
+    
+   }
+   return result
+}
+
+console.log(larGestWord(str1))
+
+
+const str = "arpan iosesr a goodestes boy";
+
+function largest(str) {
+    let word =  str.split(" ");
+    let largest = "";
+    let secondlargest = "";
+    for (let index = 0; index < word.length; index++) {
+     if (word[index].length > largest.length) {
+        secondlargest = largest;
+        largest = word[index]
+      }
+        
+    }
+    return {largest,secondlargest};
+};
+console.log(largest(str))
+
+
