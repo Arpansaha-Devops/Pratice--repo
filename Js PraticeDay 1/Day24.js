@@ -23,3 +23,31 @@
 // }
 
 // console.log(memoryLeak())
+
+
+
+
+
+let str = "hello my name is Arpan";
+
+// function largestStr(str) {
+//     return str.split(" ").reduce((acc,curr) => acc.length > curr.length ? acc : curr)
+// }
+
+// console.log(largestStr(str))
+
+
+
+function largestStr(str) {
+    let result = "";
+    let words = str.split(" "); 
+
+    for (let i = 0; i < words.length; i++) {
+        if (result.length < words[i].length) {
+            result = words[i];
+        }
+    }
+
+    return result;
+}
+console.log(largestStr(str));
