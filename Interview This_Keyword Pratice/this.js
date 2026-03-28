@@ -34,3 +34,15 @@ abc()  // undefined in strict mode or global object ..
 // }
 
 // obj.greet()
+
+
+let obj = {
+    name : "Arpan",
+    greet(){
+        console.log(this.name)
+    }
+}
+
+obj.greet()
+const newObj = obj.greet
+newObj()  // undefined because this is not refering to the obj but to the global object in non strict mode and in strict mode it will be undefined. 
