@@ -48,3 +48,7 @@ class Account {
         console.log(`Access Log: ${this.#accesslog.join(', ')}`);
     }
 }
+
+const myAccount = new Account();
+myAccount.addBalance(100);  
+

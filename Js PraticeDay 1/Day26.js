@@ -58,3 +58,15 @@ console.log(Array.isArray(arr1)) // true because arr1 is an array.
 console.log(Array.from(arr1)) // [1, 2, 3, 4, 5] because we are creating a new array from arr1 using Array.from method.
 
 console.log(Array.from('hello')) // ['h', 'e', 'l', 'l', 'o'] because we are creating a new array from a string using Array.from method.
+
+
+let obj = {
+    name : "Arpan",
+    greet : function() {
+        console.log(`Hello, my name is ${this.name}`);
+    }   
+
+}
+
+let greetUndefinedd = obj.greet;
+greetUndefinedd() // Hello, my name is undefined because we are calling the greet function without the context of the obj object.
