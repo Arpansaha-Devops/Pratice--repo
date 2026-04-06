@@ -76,3 +76,12 @@
 // first(1)(2)(3)
 
 // console.log(answer)
+
+
+let name = "JavaScript";
+
+if (name == "java" ||"python") {
+    console.log("printed")
+} else {
+    console.log("not printed")
+}
